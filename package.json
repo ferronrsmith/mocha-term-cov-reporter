@@ -4,7 +4,7 @@
   "description": "Mocha reporter for displaying a code coverage report in the terminal",
   "authors": {
     "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
-    "A confused individual <ferronrsmith@gmail.com>",
+    "A confused individual <ferronrsmith@gmail.com>"
   },
   "main": "./lib/reporter.js",
   "engines": {
