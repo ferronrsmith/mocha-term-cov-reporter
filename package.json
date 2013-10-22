@@ -1,30 +1,33 @@
 {
-  "name": "mocha-term-cov-reporter",
-  "version": "0.1.6",
-  "description": "Mocha reporter for displaying a code coverage report in the terminal",
-  "authors": {
-    "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
-    "A confused individual <ferronrsmith@gmail.com>"
-  },
-  "main": "./lib/reporter.js",
-  "engines": {
-    "node": ">= 0.8.0 < 0.12"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/ferronrsmtih/mocha-term-cov-reporter"
-  },
-  "scripts": {
-    "prestart": "coffee -co lib src",
-    "pretest": "coffee -co lib src",
-    "prepublish": "coffee -co lib src"
-  },
-  "dependencies": {
-    "colors": "~0.6.2",
-    "underscore": "~1.5.2",
-    "mocha": "~1.13.0"
-  },
-  "devDependencies": {
-    "coffee-script": "~1.6.3"
-  }
+    "name": "mocha-term-cov-reporter",
+    "version": "0.1.6",
+    "description": "Mocha reporter for displaying a code coverage report in the terminal",
+    "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+    "contributors": [
+        {
+            "name": "A confused individual ",
+            "email": "<ferronrsmith@gmail.com>"
+        }
+    ],
+    "main": "./lib/reporter.js",
+    "engines": {
+        "node": ">= 0.8.0 < 0.12"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/ferronrsmtih/mocha-term-cov-reporter"
+    },
+    "scripts": {
+        "prestart": "coffee -co lib src",
+        "pretest": "coffee -co lib src",
+        "prepublish": "coffee -co lib src"
+    },
+    "dependencies": {
+        "colors": "~0.6.2",
+        "underscore": "~1.5.2",
+        "mocha": "~1.13.0"
+    },
+    "devDependencies": {
+        "coffee-script": "~1.6.3"
+    }
 }
