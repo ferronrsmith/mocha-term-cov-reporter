@@ -9,7 +9,7 @@
             "email": "<ferronrsmith@gmail.com>"
         }
     ],
-    "main": "./lib/reporter.js",
+    "main": "reporter.js",
     "engines": {
         "node": ">= 0.8.0 < 0.12"
     },
