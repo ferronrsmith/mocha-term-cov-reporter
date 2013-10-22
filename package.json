@@ -17,11 +17,6 @@
         "type": "git",
         "url": "http://github.com/ferronrsmtih/mocha-term-cov-reporter"
     },
-    "scripts": {
-        "prestart": "coffee -co lib src",
-        "pretest": "coffee -co lib src",
-        "prepublish": "coffee -co lib src"
-    },
     "dependencies": {
         "colors": "~0.6.2",
         "underscore": "~1.5.2",
